@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+var marked = require('marked');
 
 class App extends Component {
+  console.log(marked('I am using __markdown__.'));
   render() {
     return (
       <div className="App">
